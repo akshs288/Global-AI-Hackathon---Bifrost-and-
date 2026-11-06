@@ -2,18 +2,14 @@ from pydantic import BaseModel,Field
 from typing import Optional
 from datetime import datetime
 
-
-class Model(BaseModel):
-    Company_name : str = Field(...)
-    Agenda_of_meeting: str= Field(...)
-    participants: list= Field(...,default=list)
+class Model1(BaseModel):
+    company_name : str = Field(...,min_length=1)
+    agenda: str= Field(...,min_length=2)
+    participants: list[str] = Field(default_factory=list)
     
-    At_what_time : Optional[datetime]
-    type_of_meeting:Optional[str]
+    meeting_datetime : Optional[datetime] = None
+    meeting_type:Optional[str] = None
     
-    expected_duration:Optional[int] = Field(default=None)   # This should be integer of minutes how many minutes
+    expected_duration_minutes:Optional[int] = Field(default=None)   # This should be integer of minutes how many minutes
     
-    location:Optional[str]
-
-
-
+    location:Optional[str] = None
