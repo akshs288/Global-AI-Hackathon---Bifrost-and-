@@ -1,5 +1,72 @@
-{
+[{
     "company_name": "Microsoft",
     "agenda": "Discuss Microsoft's latest AI developments",
     "participants": ["CEO", "CTO"]
 }
+,
+{
+    "company_name": "Microsoft",
+    "agenda": "Discuss AI infrastructure and future partnerships",
+    "participants": ["CEO", "CTO", "VP of Engineering"],
+    "meeting_datetime": "2026-11-10T15:30:00",
+    "meeting_type": "partnership",
+    "expected_duration_minutes": 60,
+    "location": "New York"
+}
+,
+{
+    "company_name": "OpenAI",
+    "agenda": "Discuss enterprise AI deployment",
+    "participants": [
+        "CEO",
+        "CTO",
+        "Head of Research",
+        "Product Manager",
+        "Engineering Lead"
+    ],
+    "meeting_type": "client"
+},
+
+{
+    "company_name": "NVIDIA",
+    "agenda": "Discuss GPU supply and AI infrastructure",
+    "participants": ["CEO", "CTO"],
+    "meeting_type": "partnership",
+    "meeting_objectives": "Understand supply constraints and negotiate a strategic partnership."
+}
+,
+
+{
+    "agenda": "Discuss AI developments",
+    "participants": ["CEO"]
+},
+
+{
+    "company_name": "Microsoft",
+    "agenda": "Discuss AI",
+    "meeting_type": "birthday"
+},
+
+{
+    "company_name": "Microsoft",
+    "agenda": "Discuss AI developments",
+    "participants": ["CEO"],
+    "meeting_datetime": "2025-11-10T15:30:00"
+},
+{
+    "company_name": "OpenAI",
+    "agenda": "Discuss AI research",
+    "meeting_datetime": "next Friday evening"
+},
+{
+    "company_name": "Google",
+    "agenda": "Discuss cloud services",
+    "expected_duration_minutes": -30
+},
+
+{
+    "company_name": "",
+    "agenda": "Discuss AI developments"
+}
+
+]
